@@ -8,8 +8,19 @@ html {
   font-family: 'Noto Sans JP', sans-serif;
 }
 
+
 body {
   margin: 0;
-  background-color: #9d0707;
+  display: flex;
+  background-color: #000000;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container{
+ width: 80vw;
+ background-color: rgb(42, 40, 40);
+ padding: 1rem;
+border-radius: 14px;
 }
 
