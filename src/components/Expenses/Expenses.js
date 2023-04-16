@@ -4,7 +4,7 @@ import ExpItem from "../Expenses/ExpenseItem";
 const Expenses = (props) =>{
     return (
         <Card className="container">
-      {props.expenses.map(expense => (
+      {props.item.map(expense => (
         <ExpItem key={expense.id} expense={expense} />
       ))}
         </Card>
